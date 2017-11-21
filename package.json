@@ -1,0 +1,35 @@
+{
+  "name": "eslint-plugin-muriki",
+  "version": "1.0.0",
+  "description": "My extensive, opinionated ESLint plugin / config.",
+  "keywords": [
+    "eslint",
+    "config",
+    "plugin"
+  ],
+  "author": "Dieter Luypaert <dieterluypaert@gmail.com>",
+  "license": "MIT",
+  "repository": "git@github.com:Moeriki/eslint-plugin-muriki.git",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "lint": "eslint *.js",
+    "test": "npm run lint && jest"
+  },
+  "dependencies": {
+    "eslint-config-muriki": "^10.0.0",
+    "eslint-plugin-import": "^2.8",
+    "eslint-plugin-jasmine": "^2.9",
+    "eslint-plugin-promise": "^3.6",
+    "eslint-wrapper-plugin": "~1.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^4.10"
+  },
+  "devDependencies": {
+    "eslint": "~4.11.0",
+    "jest": "~21.2.1"
+  }
+}
