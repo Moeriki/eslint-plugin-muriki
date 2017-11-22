@@ -1,6 +1,6 @@
 # ESLint Plugin Muriki
 
-This plugin exposes the ESLint configuration of [eslint-config-muriki](/moeriki/eslint-config-muriki) without the need of declaring all its dependencies.
+This plugin exposes the ESLint configuration of [eslint-config-muriki](https://github.com/moeriki/eslint-config-muriki) without the need of declaring all its dependencies.
 
 ## Setup
 
